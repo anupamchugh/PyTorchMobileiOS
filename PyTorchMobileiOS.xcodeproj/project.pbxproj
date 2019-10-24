@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E78F9EC2361D91F009A18B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78F9EB2361D91F009A18B1 /* AppDelegate.swift */; };
+		1E78F9EE2361D91F009A18B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78F9ED2361D91F009A18B1 /* SceneDelegate.swift */; };
+		1E78F9F02361D91F009A18B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78F9EF2361D91F009A18B1 /* ViewController.swift */; };
+		1E78F9F32361D91F009A18B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E78F9F12361D91F009A18B1 /* Main.storyboard */; };
+		1E78F9F52361D923009A18B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E78F9F42361D923009A18B1 /* Assets.xcassets */; };
+		1E78F9F82361D923009A18B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E78F9F62361D923009A18B1 /* LaunchScreen.storyboard */; };
+		1E78FA002361D987009A18B1 /* libPods-PyTorchMobileiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E78F9FF2361D987009A18B1 /* libPods-PyTorchMobileiOS.a */; };
+		1E78FA092361DB3B009A18B1 /* mobilenet-v2.pt in Resources */ = {isa = PBXBuildFile; fileRef = 1E78FA082361DB3B009A18B1 /* mobilenet-v2.pt */; };
+		1E78FA0B2361DBA7009A18B1 /* labels.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1E78FA0A2361DBA7009A18B1 /* labels.txt */; };
+		1E78FA0D2361E7FB009A18B1 /* UIImage+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78FA0C2361E7FB009A18B1 /* UIImage+Helper.swift */; };
+		1E78FA192361FBC3009A18B1 /* TorchModule.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1E78FA182361FBC3009A18B1 /* TorchModule.mm */; };
+		57A647C728058FBF207B23AF /* libPods-PyTorchMobileiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B104B867D72EC844953EBF2 /* libPods-PyTorchMobileiOS.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		052D39E6E09DFA5287ABDB57 /* Pods-PyTorchMobileiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PyTorchMobileiOS.debug.xcconfig"; path = "Target Support Files/Pods-PyTorchMobileiOS/Pods-PyTorchMobileiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		1E78F9E82361D91F009A18B1 /* PyTorchMobileiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PyTorchMobileiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E78F9EB2361D91F009A18B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E78F9ED2361D91F009A18B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1E78F9EF2361D91F009A18B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E78F9F22361D91F009A18B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E78F9F42361D923009A18B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E78F9F72361D923009A18B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E78F9F92361D923009A18B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E78F9FF2361D987009A18B1 /* libPods-PyTorchMobileiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-PyTorchMobileiOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E78FA082361DB3B009A18B1 /* mobilenet-v2.pt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mobilenet-v2.pt"; sourceTree = "<group>"; };
+		1E78FA0A2361DBA7009A18B1 /* labels.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = labels.txt; sourceTree = "<group>"; };
+		1E78FA0C2361E7FB009A18B1 /* UIImage+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Helper.swift"; sourceTree = "<group>"; };
+		1E78FA162361FBC3009A18B1 /* PyTorchMobileiOS-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PyTorchMobileiOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		1E78FA172361FBC3009A18B1 /* TorchModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorchModule.h; sourceTree = "<group>"; };
+		1E78FA182361FBC3009A18B1 /* TorchModule.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TorchModule.mm; sourceTree = "<group>"; };
+		2B104B867D72EC844953EBF2 /* libPods-PyTorchMobileiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PyTorchMobileiOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B5071034D01FBA4C25E93A0 /* Pods-PyTorchMobileiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PyTorchMobileiOS.release.xcconfig"; path = "Target Support Files/Pods-PyTorchMobileiOS/Pods-PyTorchMobileiOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E78F9E52361D91F009A18B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57A647C728058FBF207B23AF /* libPods-PyTorchMobileiOS.a in Frameworks */,
+				1E78FA002361D987009A18B1 /* libPods-PyTorchMobileiOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E78F9DF2361D91E009A18B1 = {
+			isa = PBXGroup;
+			children = (
+				1E78F9EA2361D91F009A18B1 /* PyTorchMobileiOS */,
+				1E78F9E92361D91F009A18B1 /* Products */,
+				E21E3255ED1C05916648FF34 /* Pods */,
+				6EF0FE5E0B9816BD9FBC186A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1E78F9E92361D91F009A18B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E78F9E82361D91F009A18B1 /* PyTorchMobileiOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E78F9EA2361D91F009A18B1 /* PyTorchMobileiOS */ = {
+			isa = PBXGroup;
+			children = (
+				1E78FA072361DB28009A18B1 /* model */,
+				1E78FA012361D9A8009A18B1 /* PyTorchBridge */,
+				1E78F9EB2361D91F009A18B1 /* AppDelegate.swift */,
+				1E78F9ED2361D91F009A18B1 /* SceneDelegate.swift */,
+				1E78FA0C2361E7FB009A18B1 /* UIImage+Helper.swift */,
+				1E78F9EF2361D91F009A18B1 /* ViewController.swift */,
+				1E78F9F12361D91F009A18B1 /* Main.storyboard */,
+				1E78F9F42361D923009A18B1 /* Assets.xcassets */,
+				1E78F9F62361D923009A18B1 /* LaunchScreen.storyboard */,
+				1E78F9F92361D923009A18B1 /* Info.plist */,
+			);
+			path = PyTorchMobileiOS;
+			sourceTree = "<group>";
+		};
+		1E78FA012361D9A8009A18B1 /* PyTorchBridge */ = {
+			isa = PBXGroup;
+			children = (
+				1E78FA162361FBC3009A18B1 /* PyTorchMobileiOS-Bridging-Header.h */,
+				1E78FA172361FBC3009A18B1 /* TorchModule.h */,
+				1E78FA182361FBC3009A18B1 /* TorchModule.mm */,
+			);
+			path = PyTorchBridge;
+			sourceTree = "<group>";
+		};
+		1E78FA072361DB28009A18B1 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				1E78FA0A2361DBA7009A18B1 /* labels.txt */,
+				1E78FA082361DB3B009A18B1 /* mobilenet-v2.pt */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		6EF0FE5E0B9816BD9FBC186A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E78F9FF2361D987009A18B1 /* libPods-PyTorchMobileiOS.a */,
+				2B104B867D72EC844953EBF2 /* libPods-PyTorchMobileiOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E21E3255ED1C05916648FF34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				052D39E6E09DFA5287ABDB57 /* Pods-PyTorchMobileiOS.debug.xcconfig */,
+				7B5071034D01FBA4C25E93A0 /* Pods-PyTorchMobileiOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E78F9E72361D91F009A18B1 /* PyTorchMobileiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E78F9FC2361D923009A18B1 /* Build configuration list for PBXNativeTarget "PyTorchMobileiOS" */;
+			buildPhases = (
+				A60D57942106FF581A84388E /* [CP] Check Pods Manifest.lock */,
+				1E78F9E42361D91F009A18B1 /* Sources */,
+				1E78F9E52361D91F009A18B1 /* Frameworks */,
+				1E78F9E62361D91F009A18B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PyTorchMobileiOS;
+			productName = PyTorchMobileiOS;
+			productReference = 1E78F9E82361D91F009A18B1 /* PyTorchMobileiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E78F9E02361D91E009A18B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Anupam Chugh";
+				TargetAttributes = {
+					1E78F9E72361D91F009A18B1 = {
+						CreatedOnToolsVersion = 11.1;
+						LastSwiftMigration = 1110;
+					};
+				};
+			};
+			buildConfigurationList = 1E78F9E32361D91E009A18B1 /* Build configuration list for PBXProject "PyTorchMobileiOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E78F9DF2361D91E009A18B1;
+			productRefGroup = 1E78F9E92361D91F009A18B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E78F9E72361D91F009A18B1 /* PyTorchMobileiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E78F9E62361D91F009A18B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E78F9F82361D923009A18B1 /* LaunchScreen.storyboard in Resources */,
+				1E78FA092361DB3B009A18B1 /* mobilenet-v2.pt in Resources */,
+				1E78F9F52361D923009A18B1 /* Assets.xcassets in Resources */,
+				1E78FA0B2361DBA7009A18B1 /* labels.txt in Resources */,
+				1E78F9F32361D91F009A18B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A60D57942106FF581A84388E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PyTorchMobileiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E78F9E42361D91F009A18B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E78F9F02361D91F009A18B1 /* ViewController.swift in Sources */,
+				1E78FA0D2361E7FB009A18B1 /* UIImage+Helper.swift in Sources */,
+				1E78F9EC2361D91F009A18B1 /* AppDelegate.swift in Sources */,
+				1E78FA192361FBC3009A18B1 /* TorchModule.mm in Sources */,
+				1E78F9EE2361D91F009A18B1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1E78F9F12361D91F009A18B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E78F9F22361D91F009A18B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E78F9F62361D923009A18B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E78F9F72361D923009A18B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E78F9FA2361D923009A18B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E78F9FB2361D923009A18B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E78F9FD2361D923009A18B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 052D39E6E09DFA5287ABDB57 /* Pods-PyTorchMobileiOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6P56H6G97;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = PyTorchMobileiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anupamchugh.PyTorchMobileiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PyTorchMobileiOS/PyTorchBridge/PyTorchMobileiOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E78F9FE2361D923009A18B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B5071034D01FBA4C25E93A0 /* Pods-PyTorchMobileiOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6P56H6G97;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = PyTorchMobileiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anupamchugh.PyTorchMobileiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PyTorchMobileiOS/PyTorchBridge/PyTorchMobileiOS-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E78F9E32361D91E009A18B1 /* Build configuration list for PBXProject "PyTorchMobileiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E78F9FA2361D923009A18B1 /* Debug */,
+				1E78F9FB2361D923009A18B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E78F9FC2361D923009A18B1 /* Build configuration list for PBXNativeTarget "PyTorchMobileiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E78F9FD2361D923009A18B1 /* Debug */,
+				1E78F9FE2361D923009A18B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E78F9E02361D91E009A18B1 /* Project object */;
+}
